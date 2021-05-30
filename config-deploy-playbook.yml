@@ -14,7 +14,7 @@
       state: present
   - name: install docker
     apt:
-      pkg: docker.io
+      pkg: docker
       state: present
   - name: start docker service
     service:
