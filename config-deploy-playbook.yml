@@ -10,7 +10,7 @@
     - run update
   - name: install tomcat
     apt:
-      pkg: tomcat9
+      pkg: tomcat8
       state: present
   - name: install docker
     apt:
